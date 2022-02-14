@@ -1,5 +1,5 @@
 import './App.css';
-import New from "./components/New";
+import New from './components/New.js';
 
 function App() {
   return (

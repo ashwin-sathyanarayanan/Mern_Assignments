@@ -1,41 +1,41 @@
-const cars = ['Tesla', 'Mercedes', 'Honda']
-const [ randomCar ] = cars
-const [ ,otherRandomCar ] = cars
-//Predict the output
-console.log(randomCar) //Output: Tesla
-console.log(otherRandomCar) //Output: Mercedes
+// const cars = ['Tesla', 'Mercedes', 'Honda']
+// const [ randomCar ] = cars
+// const [ ,otherRandomCar ] = cars
+// //Predict the output
+// console.log(randomCar) //Output: Tesla
+// console.log(otherRandomCar) //Output: Mercedes
 
 
-const employee = {
-    name: 'Elon',
-    age: 47,
-    company: 'Tesla'
-}
-const { name: otherName } = employee;
-//Predict the output
-console.log(name); // Output: Will throw an error
-console.log(otherName); //Output: Elon
+// const employee = {
+//     name: 'Elon',
+//     age: 47,
+//     company: 'Tesla'
+// }
+// const { name: otherName } = employee;
+// //Predict the output
+// console.log(name); // Output: Will throw an error
+// console.log(otherName); //Output: Elon
 
 
-const person = {
-    name: 'Phil Smith',
-    age: 47,
-    height: '6 feet'
-}
-const password = '12345';
-const { password: hashedPassword } = person;  
-//Predict the output
-console.log(password); // Output: 12345
-console.log(hashedPassword); // Output: undefined
+// const person = {
+//     name: 'Phil Smith',
+//     age: 47,
+//     height: '6 feet'
+// }
+// const password = '12345';
+// const { password: hashedPassword } = person;  
+// //Predict the output
+// console.log(password); // Output: 12345
+// console.log(hashedPassword); // Output: undefined
 
 
-const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
-const [,first] = numbers;
-const [,,,second] = numbers;
-const [,,,,,,,,third] = numbers;
-//Predict the output
-console.log(first == second); // Output: false
-console.log(first == third); // Output: true
+// const numbers = [8, 2, 3, 5, 6, 1, 67, 12, 2];
+// const [,first] = numbers;
+// const [,,,second] = numbers;
+// const [,,,,,,,,third] = numbers;
+// //Predict the output
+// console.log(first == second); // Output: false
+// console.log(first == third); // Output: true
 
 
 const lastTest = {
