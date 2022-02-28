@@ -45,9 +45,8 @@ app.get("/api/company", (req, res) => {
 app.get("/api/user/company", (req, res) => {
     const newUser = createUser();
     const newCompany = createCompany();
-    const newUserCompany = [newUser, newCompany];
     res.json({
-        newUserCompany: newUserCompany
+        newUserCompany: {newUser: newUser, newCompany: newCompany}
     })
 })
 
